@@ -1,0 +1,8 @@
+post_upgrade() {
+  echo " -> WARNING"
+  echo " -> You need to compile again the default database for the boot like this :"
+  echo " -> mv -f /etc/s6/compiled/default /etc/s6/compiled/default.pacsave"
+  echo " -> s6-rc-compile /etc/s6/compiled/default /etc/s6/boot-rc-serv"
+  echo " -> Do not forget to compile again your user database with s6opts, for example:"
+  echo " -> s6opts compile Live live"
+}
