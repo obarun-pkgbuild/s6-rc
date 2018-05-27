@@ -1,7 +1,7 @@
 # Maintainer: Eric Vidal <eric@obarun.org>
 
 pkgname=s6-rc
-pkgver=0.4.0.0
+pkgver=0.4.0.1
 pkgrel=1
 pkgdesc="A dependency-based init script management system"
 arch=(x86_64)
